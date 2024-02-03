@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dad979;
+}
+
+header {
+    background-color: #94d2ddc0;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo-img {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+
+.logo-img img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.logo-img p {
+    display: inline;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    cursor: pointer;
+    color: #3b3b3b;
+}
+
+.baloo-bhaijaan {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.btn {
+    float: right;
+    margin: 8px 10px;
+}
+
+.btn button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 7px;
+    border-radius: 15px;
+    background-color: #87d9e7c0;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn a {
+    color: rgb(37, 37, 37);
+}
+
+.btn button:hover {
+    background-color: #5ccfe4c0;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+.container {
+    display: block;
+    margin-top: 22px;
+}
+
+.main-logo {
+    border: 2.5px solid rgb(179, 80, 224);
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 10px rgb(202, 124, 238);
+}
+
+.container h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.content {
+    margin: 10px 20px;
+    padding: 5px 8px;
+    text-align: center;
+    background-color: #a1eca1af;
+    border-radius: 15px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.bigger {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
+.box1 {
+    margin: 2px 3px;
+    padding: 3px 5px;
+    width: 33.3%;
+    background-color: #f3e672be;
+    border-radius: 10px;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box2 {
+    margin: 2px 3px;
+    padding: 3px 5px;
+    width: 33.3%;
+    background-color: #35343411;
+    border-radius: 10px;
+}
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box3 {
+    margin: 2px 3px;
+    padding: 3px 5px;
+    width: 33.3%;
+    background-color: #15cee644;
+    border-radius: 10px;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Profile-Photo */
+
+.Profile-photo {
+    text-align: center;
+    background-color: rgba(159, 206, 214, 0.582);
+    padding: 15px 0px;
+}
+
+.Profile-photo img {
+    width: 350px;
+    border: 3px solid rgb(160, 240, 106);
+    border-radius: 20px;
+}
+
+.followbtn {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.followbtn button {
+    padding: 10px 5px;
+    width: 150px;
+    font-size: 20px;
+    border: 3px solid rgb(104, 236, 104);
+    color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.followbtn button:hover {
+    background-color: rgba(89, 216, 89, 0.829);
+    transition-duration: 0.6s;
+}
